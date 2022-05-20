@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Comfortaa', cursive;
+}
+.main{
+	background: url('main.jpg') center/cover no-repeat;
+	filter: contrast(50%) opacity(80%);
+	height: 100vh;
+
+}
+h1{
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	position: relative;
+	top:100px;
+	font-family: 'Cormorant Infant', serif;
+}
+.main_text{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	color: white;
+	font-size: 40px;
+}
+.date_hr{
+	background-color: white;
+	height: 1px;
+	width: 750px;
+	margin: 7px auto;
+	border: none;
+}
+.date_text{
+	color: #fff;
+	font-size: 38px;
+	text-align: center;
+}
+.date{
+	position: relative;
+	margin: 200px;	
+}
+.nav{
+	height: 70px;
+	background-color: #fff;
+	position: sticky;
+	top:0;
+	border-bottom: 1px solid gray;
+	margin-bottom: 25px;
+	box-shadow: 0 4px 10px #cfcfcf;
+}
+.menu_item{
+	line-height: 70px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	margin: 0 50px;	
+	transition: 0.5s;
+}
+.menu_item:hover{
+	transform: scale(1.2);
+
+}
+.nav_wrapper{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.history{
+	text-align: center;
+	font-size: 50px;
+	margin: 42px 0;	
+}
+.id_history{
+	position: relative;
+	bottom: 100px;
+}
+
+
+.conteiner{
+	width: 1300px;
+	margin: 0 auto;
+}
+.img_chapter{
+	width: 50%;
+}
+.chapter{
+	display: inline-block;
+	width: 46%;
+	margin-left: 3%;
+	vertical-align: center;
+}
+.chapter_left{
+	margin-left: 1%;
+	margin-right: 2%;
+}
+.heading_chapter{
+	margin: 35px 0;
+	font-size: 28px;
+}
+.hr_chapter{
+	width: 350px;
+}
+.text_chapter{
+	margin: 35px 0;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.photos img{
+	height:235px;
+}
+.photos2 img{
+	height:340px;
+}
+.footer{
+	background-color: grey;
+	height: 150px;
+}
+.copy{
+	text-align: center;
+	line-height: 150px;
+}
+
